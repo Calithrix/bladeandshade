@@ -4,6 +4,10 @@ This is the designated repo for Bre’s Blade and Shade (bladeandshadepmu.com). 
 
 The live Square site is a brochure plus booking, not a store. Square’s 2026 Plus plan (~$49–$50/month) is what you pay to keep a custom domain on their website builder. The domain already lives at Register.com, so that fee is avoidable. This repo is the cheaper replacement.
 
+## Maintenance
+
+Day-to-day edit rules, file map, deploys, and what not to touch: **[MAINTENANCE.md](MAINTENANCE.md)**. If this README disagrees with that file, trust MAINTENANCE.md.
+
 ## What’s here
 
 | Path | What it is |
