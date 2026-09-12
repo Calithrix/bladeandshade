@@ -81,7 +81,7 @@ Currently:
 
 `Blade and Shade Customized Brows.`
 
-No Square Appointments or Afterpay line in the footer. Do not add one back unless asked. Afterpay still appears on the home page as a payment mention; that is separate from the footer.
+No Square Appointments or Afterpay line in the footer. Do not add one back unless asked. The home-page Afterpay section was removed (2026-09-12) — do not restore it unless Bre or Matthew asks.
 
 ### Location
 
