@@ -468,11 +468,12 @@ textarea { min-height: 140px; resize: vertical; }
 }
 
 @media (min-width: 800px) {
-  .afterpay { grid-template-columns: 180px 1fr; gap: 2.5rem; }
+  .afterpay { grid-template-columns: 280px 1fr; gap: 2.5rem; }
 }
 
 .afterpay img {
-  width: 160px;
+  width: 260px;
+  max-width: 100%;
   margin-inline: auto;
 }
 
