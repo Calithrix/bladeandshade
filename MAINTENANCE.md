@@ -36,8 +36,8 @@ GitHub  Calithrix/bladeandshade   (source of truth: branch main)
 Cloudflare Pages  project: bladeandshade
         │  output directory: site/   (no build command)
         │
-        ├─ preview:  https://bladeandshade.pages.dev/
-        └─ custom:   https://www.bladeandshadepmu.com
+        ├─ Pages URL: https://bladeandshade.pages.dev/
+        └─ custom:    https://www.bladeandshadepmu.com
 ```
 
 **DNS (Squarespace Domains)**
