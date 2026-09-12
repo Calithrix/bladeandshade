@@ -1,8 +1,8 @@
 # Blade and Shade
 
-This is the designated repo for Bre’s Blade and Shade (bladeandshadepmu.com). `main` is the source of truth for the static site that replaces Square Online.
+This is the designated repo for Bre’s Blade and Shade (bladeandshadepmu.com). `main` is the source of truth for the static site that replaces Square Online. Agents and editors: read `MAINTENANCE.md` before changing the live site.
 
-The live Square site is a brochure plus booking, not a store. Square’s 2026 Plus plan (~$49–$50/month) is what you pay to keep a custom domain on their website builder. The domain already lives at Register.com, so that fee is avoidable. This repo is the cheaper replacement.
+The live Square site was a brochure plus booking, not a store. Square’s 2026 Plus plan (~$49–$50/month) is what you pay to keep a custom domain on their website builder. The domain now lives at Squarespace Domains (moved from Register.com), so that fee is avoidable. This repo is the cheaper replacement and is **live on Cloudflare Pages**.
 
 ## What’s here
 
@@ -58,18 +58,16 @@ Copy on FAQs, policies, reviews, and service descriptions should stay verbatim u
 
 ## Booking stays on Square (for now)
 
-Do **not** cancel Square Appointments. Only the $49/month Square Online *website* is being replaced.
+Do **not** cancel Square Appointments. Only the $49/month Square Online *website* was replaced (now live on Cloudflare Pages).
 
-`Book now` currently goes to:
+`Book now` currently goes to `contact.html` until a permanent Square Appointments URL is confirmed. Do not invent a Square URL.
 
-https://www.bladeandshadepmu.com/s/appointments
-
-That path is hosted by Square. After DNS leaves Square, that URL will 404 unless we either:
+The old Square path was https://www.bladeandshadepmu.com/s/appointments. If booking later returns to Square, either:
 
 1. Point Book now at the Square Appointments link from her dashboard (squareup.com / square.site), or
 2. Add a redirect from `/s/appointments` to that link.
 
-Until that is confirmed in her Square dashboard, leave the current booking URL in place.
+Only after that link is confirmed in her Square dashboard.
 
 Deposits and Afterpay still go through Square payments on the Free plan (online card rate on this site was already showing 3.3% + 30¢). Paying Plus does not obviously pay for itself on processing alone.
 
@@ -102,21 +100,17 @@ No install, no build. `npx serve site` also works.
 2. Branch: `main` / folder `/site`
 3. Temporary URL: `https://calithrix.github.io/bladeandshade/`
 
-## Point the domain (Register.com)
+## Point the domain (Squarespace Domains)
 
-- Registrar: Register.com
+- Registrar: Squarespace Domains (moved from Register.com)
 - Expires: **2026-10-09** — renew before then
-- Today: DNS still aims at Square/Weebly (`dns1/dns2.register.com`, Square IPs)
+- Live hosting: Cloudflare Pages Free, auto-deploys from `main`
+- Live URLs: https://www.bladeandshadepmu.com and https://bladeandshade.pages.dev
+- `www` CNAME → `bladeandshade.pages.dev`
+- Apex should forward to `https://www.bladeandshadepmu.com`
+- Keep Google MX + mail A records
 
-After the Pages project is live:
-
-1. Add `www` CNAME to the Pages hostname Cloudflare or GitHub gives you.
-2. Point the apex (`@`) with the A/AAAA records they list, or move nameservers to Cloudflare and let it flatten the apex.
-3. Wait for TLS.
-4. Disconnect the domain inside Square Online so Plus is no longer serving the public site.
-5. Then drop the Square Online Plus subscription. Keep Square Appointments / payments if she still wants that calendar.
-
-TTL 300–600 seconds while testing.
+Do not move the registrar or change Cloudflare account settings as routine maintenance. Escalate DNS/hosting. Keep Square Appointments / payments if she still wants that calendar.
 
 ## What this is not
 
@@ -127,7 +121,7 @@ TTL 300–600 seconds while testing.
 
 ## Contact for cutover
 
-Matthew owns this repo. Bre owns the business copy, photos, and whether booking stays on Square. Domain DNS is the last human step.
+Matthew owns this repo. Bre owns the business copy, photos, and whether booking stays on Square. The public site is live on Cloudflare Pages. See `MAINTENANCE.md` for who edits what.
 
 ## Editing the footer
 
