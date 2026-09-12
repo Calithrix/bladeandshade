@@ -20,9 +20,7 @@ The live Square site is a brochure plus booking, not a store. Square’s 2026 Pl
 
 There is no app server, cart, or CMS. Open the HTML and it works.
 
-## Business facts (do not invent)
-
-Use only what the live site printed as of 19 Aug 2026.
+## Business facts 
 
 - **Name:** Blade and Shade / Blade and Shade Customized Brows
 - **Artist:** Bre / Breanna Konopka
