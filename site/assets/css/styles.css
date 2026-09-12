@@ -141,7 +141,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .logo img {
-  height: 46px;
+  height: 58px;
   width: auto;
 }
 
@@ -209,7 +209,7 @@ p:last-child { margin-bottom: 0; }
 @media (min-width: 980px) {
   .nav, .header-cta { display: flex; }
   .menu-btn, .mobile-nav { display: none !important; }
-  .logo img { height: 58px; }
+  .logo img { height: 72px; }
 }
 
 /* Hero */
