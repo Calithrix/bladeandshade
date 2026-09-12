@@ -128,3 +128,10 @@ TTL 300–600 seconds while testing.
 ## Contact for cutover
 
 Matthew owns this repo. Bre owns the business copy, photos, and whether booking stays on Square. Domain DNS is the last human step.
+
+## Editing the footer
+
+Edit **one file**: `site/partials/footer.html`.
+
+Every page mounts `<div id="site-footer"></div>`; `site/assets/js/site.js` loads that partial. Do not paste the footer back into the HTML pages.
+
