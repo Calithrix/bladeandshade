@@ -35,11 +35,11 @@ There is no app server, cart, or CMS. Open the HTML and it works.
 
 | Service | Price | Duration | Notes |
 |---|---|---|---|
-| Combination Brow | $350 | 3 hrs 30 mins | First initial touchup included |
-| Microblade | $325 | 2 hrs 30 mins | First initial touchup included |
-| Ombré/Powder Brow | $325 | 3 hrs | First initial touchup included |
-| Cover Up | $275 | 3 hrs | Typically powder brow technique |
-| Color Correction | $225 | 3 hrs | No extra description on the live site |
+| Combination Brow | $375 | 3 hrs 30 mins | First initial touchup included |
+| Microblade | $350 | 2 hrs 30 mins | First initial touchup included |
+| Ombré/Powder Brow | $350 | 3 hrs | First initial touchup included |
+| Cover Up | $300 | 3 hrs | Typically powder brow technique |
+| Color Correction | $275 | 3 hrs | No extra description on the live site |
 | Touchup | $125 | 2 hrs | Annual recommended, not required |
 | Consultation | Free | 30 min | Recommended, not required |
 
