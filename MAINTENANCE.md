@@ -7,7 +7,7 @@ This file is for **AI agents and human editors** who maintain the live static si
 - **Day-to-day site edits:** Bre’s Bot (Matthew’s wife Bre’s assistant)
 - **Escalation:** All-Day (Matthew’s Chief of Staff) for DNS, hosting, architecture, or restoring stomped edits
 
-Matthew owns the repo. Bre owns business copy, photos, and whether booking stays on Square. Do not treat this playbook as permission to change infrastructure.
+Matthew owns the repo. Bre owns business copy, photos, and how booking works (currently offline, on paper — Book links go to `contact.html`). Do not treat this playbook as permission to change infrastructure.
 
 ## Stack
 
@@ -70,10 +70,10 @@ Do not “correct” this to Contact Us, drop the exclamation point, or switch p
 
 ### Book links
 
-Book now / Book an appointment currently point to `contact.html` until a permanent Square Appointments URL is confirmed.
+Book now / Book an appointment permanently point to `contact.html`. Booking is offline (Bre books on paper).
 
-- Do **not** invent a Square URL (`squareup.com`, `square.site`, `/s/appointments`, or otherwise).
-- Do not restore `/s/appointments` unless asked and the destination is confirmed.
+- Do **not** add Square Appointments or any online booking URL (`squareup.com`, `square.site`, `/s/appointments`, or otherwise) unless Matthew or Bre explicitly ask.
+- Do not restore `/s/appointments`.
 
 ### Footer legal line
 
