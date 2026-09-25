@@ -56,18 +56,11 @@ There is no app server, cart, or CMS. Open the HTML and it works.
 
 Copy on FAQs, policies, reviews, and service descriptions should stay verbatim unless Bre asks for a rewrite.
 
-## Booking stays on Square (for now)
+## Booking
 
-Do **not** cancel Square Appointments. Only the $49/month Square Online *website* was replaced (now live on Cloudflare Pages).
+Bre is done with Square Appointments. She books on paper; clients reach her by phone. There is no online booking system, and adding one would be needless overhead.
 
-`Book now` currently goes to `contact.html` until a permanent Square Appointments URL is confirmed. Do not invent a Square URL.
-
-The old Square path was https://www.bladeandshadepmu.com/s/appointments. If booking later returns to Square, either:
-
-1. Point Book now at the Square Appointments link from her dashboard (squareup.com / square.site), or
-2. Add a redirect from `/s/appointments` to that link.
-
-Only after that link is confirmed in her Square dashboard.
+`Book now` / `Book an appointment` go to `contact.html` permanently. Do not invent a Square URL, and do not add a booking embed or calendar. The old Square path (https://www.bladeandshadepmu.com/s/appointments) is dead; leave it.
 
 Deposits and Afterpay still go through Square payments on the Free plan (online card rate on this site was already showing 3.3% + 30¢). Paying Plus does not obviously pay for itself on processing alone.
 
@@ -110,7 +103,7 @@ No install, no build. `npx serve site` also works.
 - Apex should forward to `https://www.bladeandshadepmu.com`
 - Keep Google MX + mail A records
 
-Do not move the registrar or change Cloudflare account settings as routine maintenance. Escalate DNS/hosting. Keep Square Appointments / payments if she still wants that calendar.
+Do not move the registrar or change Cloudflare account settings as routine maintenance. Escalate DNS/hosting.
 
 ## What this is not
 
@@ -121,7 +114,7 @@ Do not move the registrar or change Cloudflare account settings as routine maint
 
 ## Contact for cutover
 
-Matthew owns this repo. Bre owns the business copy, photos, and whether booking stays on Square. The public site is live on Cloudflare Pages. See `MAINTENANCE.md` for who edits what.
+Matthew owns this repo. Bre owns the business copy, photos, and how she takes bookings (by phone, on paper — no Square Appointments). The public site is live on Cloudflare Pages. See `MAINTENANCE.md` for who edits what.
 
 ## Editing the footer
 

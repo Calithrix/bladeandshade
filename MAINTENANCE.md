@@ -7,7 +7,7 @@ This file is for **AI agents and human editors** who maintain the live static si
 - **Day-to-day site edits:** Bre’s Bot (Matthew’s wife Bre’s assistant)
 - **Escalation:** All-Day (Matthew’s Chief of Staff) for DNS, hosting, architecture, or restoring stomped edits
 
-Matthew owns the repo. Bre owns business copy, photos, and whether booking stays on Square. Do not treat this playbook as permission to change infrastructure.
+Matthew owns the repo. Bre owns business copy, photos, and how she takes bookings (currently by phone, on paper — no Square Appointments). Do not treat this playbook as permission to change infrastructure.
 
 ## Stack
 
@@ -70,10 +70,11 @@ Do not “correct” this to Contact Us, drop the exclamation point, or switch p
 
 ### Book links
 
-Book now / Book an appointment currently point to `contact.html` until a permanent Square Appointments URL is confirmed.
+Book now / Book an appointment point to `contact.html` permanently. Bre is done with Square Appointments and books on paper; clients reach her by phone. There is no online booking system, and adding one would be needless overhead.
 
-- Do **not** invent a Square URL (`squareup.com`, `square.site`, `/s/appointments`, or otherwise).
-- Do not restore `/s/appointments` unless asked and the destination is confirmed.
+- Do **not** add an online booking system, embed, or calendar (Square, Squarespace Scheduling, Calendly, or otherwise).
+- Do **not** invent or restore a Square URL (`squareup.com`, `square.site`, `/s/appointments`, or otherwise). The old `/s/appointments` path is dead; leave it.
+- Only change where Book links go if Bre or Matthew explicitly asks.
 
 ### Footer legal line
 
@@ -81,7 +82,7 @@ Currently:
 
 `Blade and Shade Customized Brows.`
 
-No Square Appointments or Afterpay line in the footer. Do not add one back unless asked. The home-page Afterpay section was removed (2026-09-12) — do not restore it unless Bre or Matthew asks.
+Do not add a Square Appointments booking or Afterpay line to the footer. The home-page Afterpay section was removed (2026-09-12) — do not restore it unless Bre or Matthew asks.
 
 ### Location
 
@@ -102,7 +103,6 @@ Check the requested page **and** any shared surface you touched (nav Book now, f
 
 Do **not** do these as day-to-day site work. Escalate to All-Day:
 
-- Canceling Square Appointments
 - Moving the domain registrar
 - Cloudflare account changes (project, custom domains, DNS, nameservers, billing)
 - Rewriting the whole design system
