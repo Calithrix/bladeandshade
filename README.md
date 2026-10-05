@@ -105,7 +105,7 @@ No install, no build. `npx serve site` also works.
 - Apex should forward to `https://www.bladeandshadepmu.com`
 - Keep Google MX + mail A records
 
-Do not move the registrar or change Cloudflare account settings as routine maintenance. Escalate DNS/hosting. Keep Square Appointments / payments if she still wants that calendar.
+Do not move the registrar or change Cloudflare account settings as routine maintenance. Escalate DNS/hosting.
 
 ## What this is not
 
@@ -116,7 +116,7 @@ Do not move the registrar or change Cloudflare account settings as routine maint
 
 ## Contact for cutover
 
-Matthew owns this repo. Bre owns the business copy, photos, and how booking works (currently offline, on paper). The public site is live on Cloudflare Pages. See `MAINTENANCE.md` for who edits what.
+Matthew owns this repo. Bre owns the business copy, photos, and how she takes bookings (by phone, on paper — no Square Appointments). The public site is live on Cloudflare Pages. See `MAINTENANCE.md` for who edits what.
 
 ## Editing the footer
 
