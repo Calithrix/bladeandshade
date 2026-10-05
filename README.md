@@ -56,11 +56,13 @@ There is no app server, cart, or CMS. Open the HTML and it works.
 
 Copy on FAQs, policies, reviews, and service descriptions should stay verbatim unless Bre asks for a rewrite.
 
-## Booking
+## Booking is offline (paper)
 
-Bre is done with Square Appointments. She books on paper; clients reach her by phone. There is no online booking system, and adding one would be needless overhead.
+Only the $49/month Square Online *website* was replaced (now live on Cloudflare Pages). Matthew is done with Square Appointments; Bre books on paper.
 
-`Book now` / `Book an appointment` go to `contact.html` permanently. Do not invent a Square URL, and do not add a booking embed or calendar. The old Square path (https://www.bladeandshadepmu.com/s/appointments) is dead; leave it.
+`Book now` permanently goes to `contact.html`. Do not add Square Appointments or any online booking URL unless Matthew or Bre explicitly ask.
+
+The old Square path was https://www.bladeandshadepmu.com/s/appointments. Do not restore it or redirect it to a booking link.
 
 Deposits and Afterpay still go through Square payments on the Free plan (online card rate on this site was already showing 3.3% + 30¢). Paying Plus does not obviously pay for itself on processing alone.
 
