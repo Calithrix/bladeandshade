@@ -24,9 +24,6 @@ There is no app server, cart, or CMS. Open the HTML and it works.
 
 - **Name:** Blade and Shade / Blade and Shade Customized Brows
 - **Artist:** Bre / Breanna Konopka
-- **Location:** Jeannie’s Salon & Spa, 1762 Niles Cortland Rd NE, Warren, OH 44484
-- **Phone:** 330-609-9109
-- **Email:** brekonopka01@gmail.com
 - **Facebook:** https://www.facebook.com/profile.php?id=61559056214686
 - **Hours on site:** “Open until 7:00 pm” (no full weekly grid)
 - Older Carmel, IN listings for this domain are stale. Do not put Carmel on the site.
